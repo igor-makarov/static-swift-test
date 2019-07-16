@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PerfectLib",
+        "repositoryURL": "https://github.com/igor-makarov/Perfect",
+        "state": {
+          "branch": "master",
+          "revision": "d4635d61f36af8e423b6b284ca4e9688c1f5a9ef",
+          "version": null
+        }
+      },
+      {
+        "package": "LinuxBridge",
+        "repositoryURL": "https://github.com/igor-makarov/Perfect-LinuxBridge",
+        "state": {
+          "branch": "master",
+          "revision": "1eed8e8583cb3ec7e9d25006f3a4829e82148ad0",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
