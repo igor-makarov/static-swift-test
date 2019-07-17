@@ -9,7 +9,10 @@ let package = Package(
         .macOS(.v10_11), .iOS(.v9), .tvOS(.v9), .watchOS(.v2)
     ],
     dependencies: [
+        .package(url: "https://github.com/yannickl/AwaitKit", from: "5.0.0"),
 		.package(url: "https://github.com/yaslab/CSV.swift", from: "2.0.0"),
+        .package(url: "https://github.com/mxcl/PromiseKit", from: "6.0.0"),
+        .package(url: "https://github.com/PromiseKit/Foundation", from: "3.0.0"),
         .package(url: "https://github.com/weichsel/ZIPFoundation", from: "0.9.0"),
     ],
     targets: [
@@ -17,6 +20,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "static-swift",
-            dependencies: ["CSV", "ZIPFoundation"]),
+            dependencies: ["AwaitKit", "CSV", "PromiseKit", "PMKFoundation", "ZIPFoundation"]),
     ]
 )

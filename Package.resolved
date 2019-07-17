@@ -2,12 +2,39 @@
   "object": {
     "pins": [
       {
+        "package": "AwaitKit",
+        "repositoryURL": "https://github.com/yannickl/AwaitKit",
+        "state": {
+          "branch": null,
+          "revision": "743fbf22caa2813436e634fd7bf1fb0ff13751b9",
+          "version": "5.2.0"
+        }
+      },
+      {
         "package": "CSV.swift",
         "repositoryURL": "https://github.com/yaslab/CSV.swift",
         "state": {
           "branch": null,
           "revision": "67c5209ae699d5d3ded866de5ee6a6b4005a1b56",
           "version": "2.4.2"
+        }
+      },
+      {
+        "package": "PMKFoundation",
+        "repositoryURL": "https://github.com/PromiseKit/Foundation",
+        "state": {
+          "branch": null,
+          "revision": "ee06d95342a5007de2fffd898f4f35de026842ac",
+          "version": "3.3.3"
+        }
+      },
+      {
+        "package": "PromiseKit",
+        "repositoryURL": "https://github.com/mxcl/PromiseKit",
+        "state": {
+          "branch": null,
+          "revision": "2fdb8c64a85e2081388532dbc61eb348a0793b1c",
+          "version": "6.10.0"
         }
       },
       {
